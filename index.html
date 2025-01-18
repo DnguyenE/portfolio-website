@@ -37,25 +37,35 @@
         </div>
       </div>
     </nav>
+
+    <!-- Starting the first section of the page which is the profile component -->
+
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/logo-pic.png" alt="Ethan Dinh Profile Picture" />
       </div>
       <div class="section__text">
+        <!-- p1 is the className for a main header styled in CSS -->
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Ethan Dinh</h1>
+        <!-- p2 is the className for a sub header styled in CSS -->
         <p class="section__text__p2">Computer Engineering Student</p>
         <div class="btn-container">
+          <!-- Creating a button upon click, open the resume PDF -->
           <button
             class="btn btn-color-2"
             onclick="window.open('./assets/Dinh_Ethan_Resume.pdf')"
           >
             Download Resume
           </button>
+          <!-- Creating a button upon click, open the contact section specified below -->
           <button class="btn btn-color-1" onclick="location.href('./#contact')">
             Contact Info
           </button>
         </div>
+
+        <!-- Creating a separate container to manage the socials icons and anchors -->
+
         <div id="socials-container">
           <img
             src="./assets/github-mark.png"
@@ -72,6 +82,9 @@
         </div>
       </div>
     </section>
+
+    <!-- Creating a new section for the about me, add human touches to this portion -->
+
     <section id="about">
       <p class="section__text__p1">Get to know me more</p>
       <p class="title">About Me</p>
@@ -101,6 +114,9 @@
         </div>
       </div>
     </section>
+
+    <!-- Create a new section for the experience in the workplace -->
+
     <section id="experience">
       <p class="title">Experience</p>
       <h1>Experience</h1>
@@ -191,11 +207,17 @@
         </div>
       </div>
     </section>
+
+    <!-- Creating a new section for the completed projects with links to github and the LiveDemo -->
+
     <section id="projects">
       <p class="section__text__p1">Browse</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
+
+          <!-- Project 1 -->
+
           <div class="details-container color-container">
             <div class="article-container">
               <img src="./assets/" alt="Plant Watering" class="project-img" />
@@ -216,6 +238,9 @@
               </button>
             </div>
           </div>
+
+          <!-- Project 2 -->
+
           <div class="details-container color-container">
             <div class="article-container">
               <img src="./assets/" alt="Plant Watering" class="project-img" />
@@ -236,6 +261,9 @@
               </button>
             </div>
           </div>
+
+          <!-- Project 3 -->
+
           <div class="details-container color-container">
             <div class="article-container">
               <img src="./assets/" alt="Plant Watering" class="project-img" />
