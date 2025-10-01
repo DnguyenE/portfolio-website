@@ -272,6 +272,12 @@ section {
   margin-bottom: 2rem;
 }
 
+.about-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
 .about-details-container {
   justify-content: center;
   flex-direction: column;
@@ -283,7 +289,6 @@ section {
 
 .about-pic {
   border-radius: 2rem;
-  rotate: 90deg;
 }
 
 .arrow {
